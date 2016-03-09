@@ -1,0 +1,17 @@
+{
+  "ServiceId": "com.ibm.cloudoe.orion.client.deploy",
+  "Params": {
+    "Target": {
+      "Url": "https://api.ng.bluemix.net",
+      "Org": "toshimasa1987@gmail.com",
+      "Space": "dev"
+    },
+    "Name": "sample-app-dialog",
+    "Instrumentation": {
+      "host": "sample-app-dialog",
+      "domain": "mybluemix.net"
+    }
+  },
+  "Path": "manifest.yml",
+  "Type": "Cloud Foundry"
+}
